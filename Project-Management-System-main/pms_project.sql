@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Aug 06, 2023 at 11:33 PM
+-- Generation Time: Oct 11, 2023 at 11:33 PM
 -- Server version: 5.6.51-log
 -- PHP Version: 7.4.26
 
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `tasks` (
 --
 
 INSERT INTO `tasks` (`TID`, `username`, `task`, `status`, `UID`) VALUES
-('TID20230806103932681', 'Prasant Chandra Poddar', 'Remove bugs from navbar section.', 'In progress', 'UID20230806102830786'),
+('TID20230806103932681', 'Soham Gaikwad', 'Remove bugs from navbar section.', 'In progress', 'UID20230806102830786'),
 ('TID20230807040852006', 'Brajesh Kumar', 'Remove extra spaces from menu bar.', 'Completed', 'UID20230807031646273');
 
 -- --------------------------------------------------------
@@ -63,8 +63,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`UID`, `username`) VALUES
-('UID20230806102830786', 'Prasant Chandra Poddar'),
-('UID20230806103756294', 'Pritam Chandra Poddar'),
+('UID20230806102830786', 'Soham Gaikwad'),
+('UID20230806103756294', 'Ketan Gaikwad'),
 ('UID20230807031646273', 'Brajesh');
 COMMIT;
 
